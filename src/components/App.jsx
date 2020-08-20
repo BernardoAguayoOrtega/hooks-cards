@@ -3,9 +3,14 @@ import React from 'react';
 
 //App component
 const App = () => {
-  return(
-    <div>
-      I'm an App
+  return (
+    <div className='contact-card'>
+      <img src='https://via.placeholder.com/150' alt='image'/>
+      <div className='user-details'>
+        <p>Name: </p>
+        <p>Email: </p>
+        <p>Age: </p>
+      </div>
     </div>
   )
 }
