@@ -5,7 +5,11 @@ import ContactCard from './ContactCard';
 //App component
 const App = () => {
   return (
-    <ContactCard/>
+    <React.Fragment>
+      <ContactCard />
+      <ContactCard />
+      <ContactCard />
+    </React.Fragment>
   )
 }
 
